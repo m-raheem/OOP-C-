@@ -8,8 +8,7 @@ using namespace std;
 # include <stdio.h>
 # include <string.h>
 
-bool isNumber(string s)
-{
+bool isNumber(string s){
     for (int i = 0; i < s.length(); i++)
         if (isdigit(s[i]) == 0)
             return false;
